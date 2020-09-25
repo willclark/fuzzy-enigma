@@ -20,4 +20,4 @@ jobs:
       uses: TriPSs/conventional-changelog-action@v3
       with:
         github-token: ${{ secrets.ACTION_TOKEN }}
-        version-file: VERSION.txt
+        version-file: VERSION.yml
